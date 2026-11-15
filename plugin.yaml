@@ -1,12 +1,12 @@
 {
   "name": "acedatacloud-qwen-image",
   "version": "1.0.0",
-  "description": "Qwen Image 3.0 text-to-image generation through your Ace Data Cloud account.",
   "author": "AceDataCloud",
-  "requires_hermes": ">=0.21.6",
+  "description": "Qwen Image by Ace Data Cloud: source-only single-service Git plugin. The primary operation spends paid Credits without a Hermes approval prompt; model options can increase cost. Prompts/reference URLs go to api.acedata.cloud. Never automatically retry a paid request.",
+  "requires_hermes": ">=0.23.1",
   "provides_tools": [
-    "acedata_qwen_image_generate",
-    "acedata_qwen_image_task"
+    "acedatacloud_single_qwen_image_generate",
+    "acedatacloud_single_qwen_image_task"
   ],
   "requires_env": [
     "ACEDATACLOUD_API_KEY"
