@@ -1,0 +1,36 @@
+{
+  "canonical_repository": "https://github.com/AceDataCloud/AceDataCloudMediaHermes",
+  "canonical_commit": "4ebf0fa803b92a1bc8b41fb4d4cd3ce3aacf06a7",
+  "generator": "scripts/export_service.py",
+  "service": "qwen-image",
+  "consumer_repository": "https://github.com/AceDataCloud/QwenImageHermes",
+  "canonical_contract": "services/qwen-image.json",
+  "identity_map": {
+    "tool_prefix": [
+      "acedatacloud_qwen_image",
+      "acedatacloud_single_qwen_image"
+    ],
+    "toolset": [
+      "acedatacloud-qwen-image",
+      "acedatacloud-single-qwen-image"
+    ],
+    "native_image_provider": null
+  },
+  "transport_sha256": "2653fd9275cbda09beff43968d943baa82df83656217d08ddeb9521cc99b1d7f",
+  "canonical_operation_sha256": "fa44bef6f8623f30d3389dae5d4a55bb16cb42cc692aa1e41d199a7b50f5ebc0",
+  "generated_files": {
+    "__init__.py": "befe7ccc20f9dc0cd05d3c62fe25f036ab59371a82de41ef4edbc581af803aa5",
+    "client.py": "2653fd9275cbda09beff43968d943baa82df83656217d08ddeb9521cc99b1d7f",
+    "image_provider.py": "183dc1f72fa1905364466aa30da14d82c074d3484ee6a6a6a5b739a62342490c",
+    "services/qwen-image.json": "5a40a4f02f651ff0e087b22e65b7573ecb1b94a7f6e69241d2267c97ad290d14",
+    "plugin.yaml": "9ec9578ad677c63bdfa77aee3cd870414849d0f17712f16f6a66a868e98fbdf9",
+    "tests/test_contracts.py": "fa834427da679d6abb5a4a697f2d8a5ea18fcd9589aef7cb7077c3ebf5ff7dd3",
+    "tests/test_registration.py": "a3b2904d16e44ab70696555165f6b05465cfc978b5fe5160cbca9acebc22845d",
+    "tests/test_source_profile.py": "d29b78f9671e46fccfa1239c8f864ae282c19c8f7d9411b8b2ac2138373336ba",
+    "scripts/check_runtime.py": "be594c81cf4436cc9689babae0344815268aab33345afc391221079be151e90f",
+    "LICENSE": "72d30730d068e067be58878959bac2450f5a05f2b2e3c365cdc13a0181635c3c",
+    ".github/workflows/validate.yml": "020e1ef60679e7c86024fb004c75dc29c19728fbc1f1ab5c0da4f30ab6280527",
+    "README.md": "78197cd9c69b26ef8c47355301b584063965b06cc55d65bb888319d23558c11f",
+    "readme/README_zh_Hans.md": "7f25a4fb1a18fb90a89ac82fa1f398b3902e7ca062a234c23ff9587e0a2b9a10"
+  }
+}
